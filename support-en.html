@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support - Logly Baby Tracker</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.8;
+            color: #333;
+            background-color: #f5f5f5;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding: 30px;
+            background: linear-gradient(135deg, #FF9A7B 0%, #FECFEF 100%);
+            color: white;
+            border-radius: 12px;
+        }
+
+        .header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        .header p {
+            font-size: 1rem;
+            opacity: 0.9;
+        }
+
+        .content {
+            background: white;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        .section {
+            margin-bottom: 30px;
+        }
+
+        .section:last-child {
+            margin-bottom: 0;
+        }
+
+        .section h2 {
+            font-size: 1.5rem;
+            color: #FF7B54;
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #f0f0f0;
+        }
+
+        .section h3 {
+            font-size: 1.2rem;
+            color: #555;
+            margin: 20px 0 10px 0;
+        }
+
+        .section p {
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+
+        .section ul {
+            margin-left: 20px;
+            margin-bottom: 15px;
+        }
+
+        .section li {
+            margin-bottom: 8px;
+        }
+
+        .highlight-box {
+            background: #FFF5F2;
+            border-left: 4px solid #FF7B54;
+            padding: 15px 20px;
+            margin: 20px 0;
+            border-radius: 0 8px 8px 0;
+        }
+
+        .faq-item {
+            margin-bottom: 20px;
+            padding: 15px;
+            background: #fafafa;
+            border-radius: 8px;
+        }
+
+        .faq-item h4 {
+            color: #FF7B54;
+            margin-bottom: 8px;
+            font-size: 1.1rem;
+        }
+
+        .contact-card {
+            background: linear-gradient(135deg, #FF9A7B 0%, #FECFEF 100%);
+            color: white;
+            padding: 25px;
+            border-radius: 12px;
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .contact-card h3 {
+            color: white;
+            margin-bottom: 15px;
+        }
+
+        .contact-card a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.2rem;
+            font-weight: bold;
+        }
+
+        .language-switch {
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .language-switch a {
+            display: inline-block;
+            padding: 12px 24px;
+            background: #FF7B54;
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+            transition: background 0.3s;
+        }
+
+        .language-switch a:hover {
+            background: #E86A45;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            padding: 20px;
+            color: #666;
+            font-size: 0.9rem;
+        }
+
+        .step-list {
+            counter-reset: step;
+            list-style: none;
+            margin-left: 0;
+        }
+
+        .step-list li {
+            counter-increment: step;
+            position: relative;
+            padding-left: 40px;
+            margin-bottom: 15px;
+        }
+
+        .step-list li::before {
+            content: counter(step);
+            position: absolute;
+            left: 0;
+            top: 0;
+            background: #FF7B54;
+            color: white;
+            width: 28px;
+            height: 28px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.9rem;
+            font-weight: bold;
+        }
+
+        @media (max-width: 600px) {
+            .header h1 {
+                font-size: 1.8rem;
+            }
+
+            .content {
+                padding: 20px;
+            }
+
+            .section h2 {
+                font-size: 1.3rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Support</h1>
+            <p>Logly Baby Tracker - We're here to help</p>
+        </div>
+
+        <div class="content">
+            <div class="section">
+                <h2>Quick Start</h2>
+                <p>Welcome to Logly Baby Tracker! Here are the steps to get started:</p>
+                <ol class="step-list">
+                    <li>Create Baby Profile: Enter your baby's basic information (name, date of birth, gender)</li>
+                    <li>Start Logging: Tap the "+" button on the home screen to record feedings, sleep, diapers, etc.</li>
+                    <li>View Statistics: Check weekly/monthly/yearly data analysis on the Statistics page</li>
+                    <li>Set Reminders: Customize feeding, diaper change, and sleep reminder times</li>
+                    <li>Enable iCloud Sync: Turn on in Settings to sync data across devices</li>
+                </ol>
+            </div>
+
+            <div class="section">
+                <h2>Frequently Asked Questions (FAQ)</h2>
+                
+                <div class="faq-item">
+                    <h4>Q: Where is my data stored? Is it secure?</h4>
+                    <p>A: All your data is stored locally on your device. We adopt a local-first design and do not collect or upload any of your data to our servers. If iCloud sync is enabled, data will be synchronized between your devices through Apple's iCloud service, following Apple's privacy policy.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h4>Q: How do I back up my data?</h4>
+                    <p>A: You can back up your data in the following ways:<br>
+                    1. Enable iCloud Sync: Settings → iCloud Sync → On<br>
+                    2. Export Data: Settings → Data Management → Export Data, which will generate a backup file saved to your device</p>
+                </div>
+
+                <div class="faq-item">
+                    <h4>Q: How do I restore data after switching devices?</h4>
+                    <p>A: If you have enabled iCloud sync, simply log in with the same Apple ID on the new device and enable iCloud sync, and the data will sync automatically. Alternatively, use the previously exported backup file to import data.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h4>Q: How do I delete all data?</h4>
+                    <p>A: Since all data is stored on your device, you can delete it in the following ways:<br>
+                    1. In the app: Settings → Data Management → Clear All Data<br>
+                    2. Uninstall the app: Uninstalling the app will delete all local data</p>
+                </div>
+
+                <div class="faq-item">
+                    <h4>Q: How do I use the feeding timer?</h4>
+                    <p>A: When recording breastfeeding, tap the "Start Timer" button, and the app will automatically record the feeding duration. You can also manually enter the feeding time. The timer supports background running and Dynamic Island display.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h4>Q: How do I interpret the growth charts?</h4>
+                    <p>A: Growth charts are compared against WHO Child Growth Standards, showing your baby's weight, height, and head circumference percentile relative to children of the same age. 50% represents the average; above 50% means higher than half of peers, below 50% means lower than half of peers.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h4>Q: What if reminder notifications are not working?</h4>
+                    <p>A: Please check the following settings:<br>
+                    1. Ensure notifications are allowed for Logly in iPhone Settings<br>
+                    2. Check that notification volume is turned on<br>
+                    3. Confirm Do Not Disturb mode is off<br>
+                    4. Check that reminder settings in the app are correct</p>
+                </div>
+
+                <div class="faq-item">
+                    <h4>Q: Can I record multiple babies?</h4>
+                    <p>A: The current version supports data for one baby. Multi-baby support is under development and will be available in a future update.</p>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2>Troubleshooting</h2>
+                
+                <h3>App Crashes or Freezes</h3>
+                <ul>
+                    <li>Try force-closing the app and reopening it</li>
+                    <li>Check if iOS is up to date</li>
+                    <li>Ensure sufficient device storage space</li>
+                    <li>If the issue persists, try restarting your device</li>
+                </ul>
+
+                <h3>iCloud Sync Failed</h3>
+                <ul>
+                    <li>Ensure device is signed in to iCloud and iCloud Drive is enabled</li>
+                    <li>Check if network connection is normal</li>
+                    <li>Turn off and then turn on iCloud sync in Settings</li>
+                    <li>Ensure all devices use the same Apple ID</li>
+                </ul>
+
+                <h3>Data Loss</h3>
+                <div class="highlight-box">
+                    <strong>Important:</strong> If you have iCloud sync enabled, your data may still be in iCloud. Try logging in with the same Apple ID on a new device and enable sync to restore data. If you have a backup file, you can restore through the import function.
+                </div>
+            </div>
+
+            <div class="section">
+                <h2>Feature Guide</h2>
+                
+                <h3>Record Types</h3>
+                <ul>
+                    <li><strong>Breastfeeding:</strong> Record nursing time, duration, and side</li>
+                    <li><strong>Formula/Solids:</strong> Record feeding time and intake amount</li>
+                    <li><strong>Sleep:</strong> Record sleep start/end time, with optional rating</li>
+                    <li><strong>Diaper:</strong> Record time and stool status, with optional photo</li>
+                    <li><strong>Growth:</strong> Record weight, height, head circumference, with optional comparison photo</li>
+                    <li><strong>Vaccination:</strong> Record vaccination schedule and actual administration</li>
+                </ul>
+
+                <h3>Theme Switching</h3>
+                <p>In Settings → Theme, you can choose from 4 beautiful themes:</p>
+                <ul>
+                    <li><strong>Minimal Ethereal:</strong> Default warm orange theme</li>
+                    <li><strong>Sketchbook:</strong> Paper texture hand-drawn style</li>
+                    <li><strong>OceanBreeze:</strong> Fresh blue-green tones</li>
+                    <li><strong>Macaron:</strong> Sweet pink color scheme</li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <h2>Contact Us</h2>
+                <p>If you encounter issues that cannot be resolved, or have feature suggestions, please contact us:</p>
+                
+                <div class="contact-card">
+                    <h3>📧 Technical Support Email</h3>
+                    <a href="mailto:903617610@qq.com">903617610@qq.com</a>
+                    <p style="margin-top: 10px; font-size: 0.9rem;">We will respond within 24 hours</p>
+                </div>
+
+                <div class="highlight-box">
+                    <strong>When reporting issues, please provide:</strong><br>
+                    1. Device model and iOS version<br>
+                    2. App version number (Settings → About)<br>
+                    3. Problem description and reproduction steps<br>
+                    4. If there are error messages, please provide screenshots
+                </div>
+            </div>
+
+            <div class="section">
+                <h2>Version Updates</h2>
+                <p>We continuously improve the app with regular updates. We recommend enabling automatic updates in the App Store to get the latest features and security fixes.</p>
+                
+                <h3>Current Version</h3>
+                <p>Version 1.2.0</p>
+                <ul>
+                    <li>New slider-style feeding amount selector for more intuitive operation</li>
+                    <li>Optimized statistics page with fixed header</li>
+                    <li>Improved theme switching experience</li>
+                    <li>Fixed known issues and improved stability</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="language-switch">
+            <a href="support-cn.html">查看中文版</a>
+        </div>
+
+        <div class="footer">
+            <p>&copy; 2026 Logly Baby Tracker. All rights reserved.</p>
+            <p>Cherishing every moment of growth</p>
+        </div>
+    </div>
+</body>
+</html>
